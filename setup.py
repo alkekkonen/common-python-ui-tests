@@ -33,12 +33,12 @@ def read_test_requirements():
         return []
 
 
-# override bamboo auto-naming.
+# override auto-naming
 os.environ["pypi_package_name"] = 'common-python-ui-test'
 
 # Add build number if available
-buildnumber = os.getenv('bamboo_buildNumber')
-branch = os.getenv('bamboo_planRepository_branchName')
+buildnumber = os.getenv('buildNumber')
+branch = os.getenv('planRepository_branchName')
 if buildnumber is not None and branch is not None:
     if branch == 'master':
         os.environ['pypi_package_version'] = '{0}'.format(__version__)
