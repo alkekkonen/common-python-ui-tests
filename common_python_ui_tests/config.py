@@ -5,7 +5,6 @@ import sys
 import yaml
 import logging
 import requests
-# from hyperclient.utils.data import DotDict
 from io import StringIO
 
 CONSUL_URL_PATTERN = 'https://consul-url/{env}/tests/config?raw&token={token}'
