@@ -1,5 +1,6 @@
 # Common Python UI Tests
 Template of the library to make UI testing simple
+
 PLEASE NOTE: This is not a working library, but a bunch of examples. 
 However, you can fix it by yourself.
 
