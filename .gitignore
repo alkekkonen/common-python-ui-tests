@@ -1,0 +1,19 @@
+*.log
+*.pyc
+*.orig
+**/.idea/**
+envs-local.yml
+/api/config/**/*.token
+/api/config/local.yml
+logs
+venv
+
+# Emacs temporary files
+*~
+
+# Hidden files
+.*
+!.gitignore
+
+# Idea module files
+*.iml
