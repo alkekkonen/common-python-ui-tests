@@ -1,2 +1,0 @@
--r requirements.txt
-unittest-xml-reporting==2.2.0
